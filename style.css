@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(25, 131, 188);
+  font-family: arial, sans-serif;
+}
+.clearfix {
+  content: '';
+  clear: both;
+  display: table;
+}
+.kontakt {
+  display: block;
+  width: 100%;
+  background-color: #fff;
+  overflow: hidden;
+}
+.kontakt img {
+  margin-left: 40px;
+  width: 150px;
+  float: left;
+}
+
+.kontakt p {
+  font-weight: 100;
+  margin-top: 15px;
+  opacity: 0.6;
+}
+
+.kontakt .mail {
+  width: 25vw;
+  margin-left: 190px;
+  padding: 0 8px;
+  height: 3vh;
+}
+.kontakt .mail:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.kontakt .telefon {
+  width: 20vw;
+  padding: 0 12px;
+  margin-top: -16px;
+  margin-left: 50vw;
+}
+
+.kontakt .telefon:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.kontakt .godziny {
+  margin-left: 70vw;
+  margin-top: -20px;
+  padding: 0 16px;
+  width: 25vw;
+}
+
+.kontakt .godziny i {
+  font-size: 20px;
+  margin-right: 7.5px;
+}
+.menu {
+  display: inline;
+}
+
+.menu ul {
+  float: left;
+}
+
+.menu ul li {
+  display: block;
+}
